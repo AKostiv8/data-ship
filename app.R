@@ -7,7 +7,7 @@ library(leaflet)
 library(geosphere)
 
 #importing data
-dataset_ship <- read.csv('ships.csv')
+dataset_ship <- read.csv('https://media.githubusercontent.com/media/AKostiv8/data-ship/master/ships.csv')
 
 ui <- bootstrapPage(
     
